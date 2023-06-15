@@ -13,8 +13,11 @@ def stock_picker(pricesArray)
 
   buyDay = pricesArray.index(prices[0])
   sellDay = pricesArray.index(prices[1])
+
   days = [buyDay, sellDay]
-  
+
+  days
+
 end
 
 stock_picker([17,3,6,9,15,8,6,1,10])
